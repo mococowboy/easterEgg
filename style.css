@@ -1,0 +1,30 @@
+dialog::backdrop {
+    background: rgba(20,20,20,.8);
+    backdrop-filter: blur(2px);
+}
+dialog {
+    border-radius: 0.5em;
+    border-color: #FFFDC4;
+    border-width: 0.5em;
+    padding: 0;
+    font-size: 1.6em;
+}
+dialog p {
+    padding: 0.5em;
+}
+#egg_header {
+    background: #E4EE7E;
+    color: black;
+    margin: 0;;
+    border: 0;
+    padding: 1em;
+    font-weight: bolder;
+    border-bottom: 0.5em solid #3D280D;
+}
+#egg_footer {
+    border-top: 0.5em solid #3D280D;
+    padding: 1em;
+    margin: 0;
+    background-color: #E4EE7E;
+    color: black;
+}
